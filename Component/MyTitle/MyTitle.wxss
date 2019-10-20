@@ -1,0 +1,53 @@
+/* Component/MyTitle/MyTitle.wxss */
+
+.my-title {
+  display: flex;
+  align-items: center;
+  padding: 10rpx;
+  background-color: #fff;
+}
+
+.logo {
+  flex: 7;
+}
+
+.logo image {
+  width: 140rpx;
+  height: 60rpx;
+}
+
+.search {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.search image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.user {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user image {
+  width: 54rpx;
+  height: 60rpx;
+}
+
+.down {
+  flex: 3;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  color: #fff;
+  border-radius: 10rpx;
+  padding: 10rpx;
+}
